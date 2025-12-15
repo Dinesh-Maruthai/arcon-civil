@@ -126,9 +126,10 @@ nav li {
   justify-content: center;
 }
 .corousel-container {
-  margin-top: 20px;
+  margin-top: 100px;
   display: grid;
-  gap: 40px;
+  gap: 80px;
+
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #0E1E2F;
   color: white;
