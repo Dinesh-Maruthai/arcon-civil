@@ -4,7 +4,6 @@
 }
 
 body {
-  font-size: 1rem;
   background-color: white;
   font-family: "Montserrat", Sans-serif;
   padding-top: 25px;
@@ -42,7 +41,7 @@ nav button {
   padding: 10px 18px;
   border-radius: 20px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 1rem;
   transition: background-color 0.3s,color 0.3s;
 }
 nav button:hover {
@@ -59,7 +58,7 @@ nav li:hover a {
 }
 nav li {
   list-style: none;
-  font-size: 11px;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
@@ -126,12 +125,12 @@ nav li {
   background-color: #0E1E2F;
   justify-content: center;
   align-items:start;
-  grid-template-columns:400px 500px;
+  grid-template-columns:600px 600px;
   grid-template-rows: auto auto;
   grid-template-areas: 
   "box-1 box-2"
   "box-3 box-3";
-  gap: 10px;
+  gap: 100px;
   color: white;
   padding-bottom: 2rem;
 }
@@ -144,7 +143,7 @@ nav li {
   position: relative;
 }
 .box {
- 
+  
 }
 
 #about {
@@ -196,7 +195,7 @@ nav li {
   -webkit-text-fill-color: transparent;
 }
 .box p:nth-child(2) {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 700;
   
 }
@@ -208,7 +207,8 @@ nav li {
   grid-template-columns: 240px 240px 240px 240px;
   justify-items: center;
   align-items: center;
-  margin-top: 20px;
+  justify-content: space-around;
+  margin-bottom: 3rem;
 }
 .about-card-container {
   display: flex;
@@ -229,9 +229,9 @@ nav li {
 }
 
 .card p:nth-child(3) {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
-  font-weight: 400;
+  font-weight: bold;
   padding: 1rem;
 }
 
